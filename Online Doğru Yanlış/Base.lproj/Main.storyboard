@@ -24,9 +24,13 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ngK-k7-eJP" secondAttribute="height" multiplier="4:1" constant="13" id="2U9-O0-djI"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <state key="normal" title="KARŞILAŞMA BUL">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="findGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Zd-HF-sJa"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

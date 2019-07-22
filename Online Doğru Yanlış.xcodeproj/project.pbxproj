@@ -13,6 +13,9 @@
 		ED42256722E477D800884790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED42256622E477D800884790 /* Assets.xcassets */; };
 		ED42256A22E477D800884790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED42256822E477D800884790 /* LaunchScreen.storyboard */; };
 		ED42257322E5863E00884790 /* Font-Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42257222E5863E00884790 /* Font-Helpers.swift */; };
+		ED42257622E5A6C400884790 /* GameCenterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42257522E5A6C400884790 /* GameCenterHelper.swift */; };
+		ED42257922E5B49400884790 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED42257822E5B49400884790 /* GameKit.framework */; };
+		ED42257B22E5E67100884790 /* Notification-Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42257A22E5E67100884790 /* Notification-Name.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		ED42256922E477D800884790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED42256B22E477D800884790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED42257222E5863E00884790 /* Font-Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font-Helpers.swift"; sourceTree = "<group>"; };
+		ED42257522E5A6C400884790 /* GameCenterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterHelper.swift; sourceTree = "<group>"; };
+		ED42257822E5B49400884790 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		ED42257A22E5E67100884790 /* Notification-Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification-Name.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED42257922E5B49400884790 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,7 @@
 			children = (
 				ED42255E22E477D600884790 /* Online Doğru Yanlış */,
 				ED42255D22E477D600884790 /* Products */,
+				ED42257722E5B49400884790 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +66,9 @@
 			children = (
 				ED42255F22E477D600884790 /* AppDelegate.swift */,
 				ED42256122E477D600884790 /* MainViewController.swift */,
-				ED42257422E5976900884790 /* Extensions */,
+				ED42257522E5A6C400884790 /* GameCenterHelper.swift */,
 				ED42256322E477D600884790 /* Main.storyboard */,
+				ED42257422E5976900884790 /* Extensions */,
 				ED42257122E4792100884790 /* Supporting Files */,
 				ED42256B22E477D800884790 /* Info.plist */,
 			);
@@ -79,8 +88,17 @@
 			isa = PBXGroup;
 			children = (
 				ED42257222E5863E00884790 /* Font-Helpers.swift */,
+				ED42257A22E5E67100884790 /* Notification-Name.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ED42257722E5B49400884790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED42257822E5B49400884790 /* GameKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,6 +133,11 @@
 				TargetAttributes = {
 					ED42255B22E477D600884790 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -154,7 +177,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED42257622E5A6C400884790 /* GameCenterHelper.swift in Sources */,
 				ED42256222E477D600884790 /* MainViewController.swift in Sources */,
+				ED42257B22E5E67100884790 /* Notification-Name.swift in Sources */,
 				ED42256022E477D600884790 /* AppDelegate.swift in Sources */,
 				ED42257322E5863E00884790 /* Font-Helpers.swift in Sources */,
 			);
