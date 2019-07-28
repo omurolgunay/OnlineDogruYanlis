@@ -16,9 +16,14 @@
 		ED42257622E5A6C400884790 /* GameCenterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42257522E5A6C400884790 /* GameCenterHelper.swift */; };
 		ED42257922E5B49400884790 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED42257822E5B49400884790 /* GameKit.framework */; };
 		ED42257B22E5E67100884790 /* Notification-Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42257A22E5E67100884790 /* Notification-Name.swift */; };
+		ED42257D22E6DCFE00884790 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42257C22E6DCFE00884790 /* GameModel.swift */; };
+		ED43BC0122E750CA005C8621 /* SingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED43BC0022E750CA005C8621 /* SingleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6004EBB55C630F024C12DDA7 /* Pods-Online Doğru Yanlış.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Online Doğru Yanlış.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Online Doğru Yanlış/Pods-Online Doğru Yanlış.debug.xcconfig"; sourceTree = "<group>"; };
+		7B74E486130E83699021FA6E /* Pods-Online Doğru Yanlış.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Online Doğru Yanlış.release.xcconfig"; path = "Pods/Target Support Files/Pods-Online Doğru Yanlış/Pods-Online Doğru Yanlış.release.xcconfig"; sourceTree = "<group>"; };
+		C2C44ABB186D1116065CC2D3 /* Pods_Online_Dog_ru_Yanl_s_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Online_Dog_ru_Yanl_s_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED42255C22E477D600884790 /* Online Doğru Yanlış.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Online Doğru Yanlış.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED42255F22E477D600884790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED42256122E477D600884790 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +35,9 @@
 		ED42257522E5A6C400884790 /* GameCenterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterHelper.swift; sourceTree = "<group>"; };
 		ED42257822E5B49400884790 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		ED42257A22E5E67100884790 /* Notification-Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification-Name.swift"; sourceTree = "<group>"; };
+		ED42257C22E6DCFE00884790 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		ED43BBFE22E74E40005C8621 /* GSMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GSMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED43BC0022E750CA005C8621 /* SingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,12 +52,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0D6BD3BC85C98ED05B28D21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6004EBB55C630F024C12DDA7 /* Pods-Online Doğru Yanlış.debug.xcconfig */,
+				7B74E486130E83699021FA6E /* Pods-Online Doğru Yanlış.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ED42255322E477D600884790 = {
 			isa = PBXGroup;
 			children = (
 				ED42255E22E477D600884790 /* Online Doğru Yanlış */,
 				ED42255D22E477D600884790 /* Products */,
 				ED42257722E5B49400884790 /* Frameworks */,
+				B0D6BD3BC85C98ED05B28D21 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,7 +84,9 @@
 			children = (
 				ED42255F22E477D600884790 /* AppDelegate.swift */,
 				ED42256122E477D600884790 /* MainViewController.swift */,
+				ED43BC0022E750CA005C8621 /* SingleViewController.swift */,
 				ED42257522E5A6C400884790 /* GameCenterHelper.swift */,
+				ED42257C22E6DCFE00884790 /* GameModel.swift */,
 				ED42256322E477D600884790 /* Main.storyboard */,
 				ED42257422E5976900884790 /* Extensions */,
 				ED42257122E4792100884790 /* Supporting Files */,
@@ -96,7 +116,9 @@
 		ED42257722E5B49400884790 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED43BBFE22E74E40005C8621 /* GSMessages.framework */,
 				ED42257822E5B49400884790 /* GameKit.framework */,
+				C2C44ABB186D1116065CC2D3 /* Pods_Online_Dog_ru_Yanl_s_.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -108,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED42256E22E477D800884790 /* Build configuration list for PBXNativeTarget "Online Doğru Yanlış" */;
 			buildPhases = (
+				185D9FFD21F4AB268F282349 /* [CP] Check Pods Manifest.lock */,
 				ED42255822E477D600884790 /* Sources */,
 				ED42255922E477D600884790 /* Frameworks */,
 				ED42255A22E477D600884790 /* Resources */,
+				F621DB4E0BC5DEC41026B9E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,6 +196,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		185D9FFD21F4AB268F282349 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Online Doğru Yanlış-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F621DB4E0BC5DEC41026B9E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Online Doğru Yanlış/Pods-Online Doğru Yanlış-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GSMessages/GSMessages.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSMessages.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Online Doğru Yanlış/Pods-Online Doğru Yanlış-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED42255822E477D600884790 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -181,7 +244,9 @@
 				ED42256222E477D600884790 /* MainViewController.swift in Sources */,
 				ED42257B22E5E67100884790 /* Notification-Name.swift in Sources */,
 				ED42256022E477D600884790 /* AppDelegate.swift in Sources */,
+				ED43BC0122E750CA005C8621 /* SingleViewController.swift in Sources */,
 				ED42257322E5863E00884790 /* Font-Helpers.swift in Sources */,
+				ED42257D22E6DCFE00884790 /* GameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,10 +390,12 @@
 		};
 		ED42256F22E477D800884790 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6004EBB55C630F024C12DDA7 /* Pods-Online Doğru Yanlış.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6Q92ZA8LP;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Online Doğru Yanlış/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -344,10 +411,12 @@
 		};
 		ED42257022E477D800884790 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B74E486130E83699021FA6E /* Pods-Online Doğru Yanlış.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6Q92ZA8LP;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Online Doğru Yanlış/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.4;
 				LD_RUNPATH_SEARCH_PATHS = (

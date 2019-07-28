@@ -10,4 +10,6 @@ import Foundation
 
 extension Notification.Name {
     static let authenticationChanged = Notification.Name.init(rawValue: "authenticationChanged")
+    static let presentGame = Notification.Name.init("presentGame")
+    static let reciveData = Notification.Name.init("reciveData")
 }

@@ -8,10 +8,13 @@
 
 import UIKit
 import GameKit
+import GSMessages
 
 class MainViewController: UIViewController {
     //MARK: - Variables
     var currentGame = GameCenterHelper()
+    var model = GameModel(questionOrder: 8, totalQuestionCount: 10, correctCount: 4)
+
     //MARK: - IBOutlets
     @IBOutlet weak var findGame: UIButton!{
         didSet{
@@ -33,15 +36,26 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         GameCenterHelper.helper.viewController = self
         NotificationCenter.default.addObserver(self, selector: #selector(authenticationChanged(_:)), name: .authenticationChanged, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(matchFound(_:)), name: .presentGame, object: nil)
     }
     
     @objc func authenticationChanged (_ notification: Notification) {
-        findGame.isEnabled = notification.object as? Bool ?? false
         if notification.object as? Bool ?? false {
+            findGame.isEnabled = true
             findGame.backgroundColor = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
+            self.showMessage("Giriş Başarılı", type: .success, options: [.position(.bottom)])
+        }else{
+            self.showMessage("Hata: Ayarlar > Game Center'dan giriş yapınız.", type: .error, options: [.position(.bottom),.autoHide(false)])
         }
     }
+    @objc func matchFound(_ notification : Notification) {
+        let match = notification.object as! GKMatch
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "SingleGameID") as! SingleViewController
+        vc.currentMatch = match
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     
-    
+
     
 }

@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089CA1F406B63442DC59087196138D3C /* GSMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F1CA56A3DD201968EAFA14504A39C2 /* GSMessage.swift */; };
+		17CC69F123EE43F6C6C6A1B2AE62B576 /* Pods-Online Doğru Yanlış-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1270A58DB96FDC3EA038794B3F7F635 /* Pods-Online Doğru Yanlış-dummy.m */; };
+		2B75D84A721830E4CAF8ECD3CBAF88FB /* Pods-Online Doğru Yanlış-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E64787892EC33E67B43DD6C7BEDE7653 /* Pods-Online Doğru Yanlış-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		480312FA1AAE653B2F95E2C0FD20FB66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7797E52B21C265ACD7C505D6632BCD64 /* GSMessages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFDE6FE7B9BA9D43491A62AF75C42CC /* GSMessages-dummy.m */; };
+		96976E172CB308749824DE26F2AAC2AE /* GSMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = D15A01C7825CA30771AA45B6DA04CE9D /* GSMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5D6F7BEDEF50F8A0AA261FBD89E4FB8 /* GSMessages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD1468587FFEEE7B3C8B003ED102065 /* GSMessages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9052126DB82266DAA32286FE1BA04F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82E6FA699806672F9D4F941A5DBFEF3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80A1AAD476BC6D0D87976DE91984E49D;
+			remoteInfo = GSMessages;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0303E678556361FCFBA75D571D92D467 /* GSMessages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSMessages-prefix.pch"; sourceTree = "<group>"; };
+		0AD1468587FFEEE7B3C8B003ED102065 /* GSMessages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSMessages-umbrella.h"; sourceTree = "<group>"; };
+		0B152AD00C8D6462A9B65E6F58F495D7 /* Pods-Online Doğru Yanlış-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Online Doğru Yanlış-frameworks.sh"; sourceTree = "<group>"; };
+		0E6615EBD41E3BB7554FB75B8CAD4E59 /* Pods-Online Doğru Yanlış-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Online Doğru Yanlış-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24F1CA56A3DD201968EAFA14504A39C2 /* GSMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GSMessage.swift; path = GSMessages/GSMessage.swift; sourceTree = "<group>"; };
+		27043AF5CE162B5C8AB4510248EF2C6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFDE6FE7B9BA9D43491A62AF75C42CC /* GSMessages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GSMessages-dummy.m"; sourceTree = "<group>"; };
+		2E14B576612138CF7A348D938D24284C /* GSMessages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GSMessages.modulemap; sourceTree = "<group>"; };
+		343C861C02EE149CC8858578756AC08A /* Pods_Online_Dog_ru_Yanl_s_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Online_Dog_ru_Yanl_s_.framework; path = "Pods_Online_Dog_ru_Yanlıs_.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		482838988C22116F08EA5B8EF94544A4 /* Pods-Online Doğru Yanlış.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Online Doğru Yanlış.release.xcconfig"; sourceTree = "<group>"; };
+		64124959F406386A3F27691DD91C2C0A /* Pods-Online Doğru Yanlış.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Online Doğru Yanlış.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67850132A644AB83614AEC25CB088168 /* GSMessages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSMessages.xcconfig; sourceTree = "<group>"; };
+		7F938D2A65F17C9AD06EF81FCC7776A2 /* GSMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GSMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBC5AB46709AA0C11CF1345AB49D542 /* Pods-Online Doğru Yanlış-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Online Doğru Yanlış-resources.sh"; sourceTree = "<group>"; };
+		91B0F7D14CBD0078AD86863AF2A34A66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1270A58DB96FDC3EA038794B3F7F635 /* Pods-Online Doğru Yanlış-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Online Doğru Yanlış-dummy.m"; sourceTree = "<group>"; };
+		D15A01C7825CA30771AA45B6DA04CE9D /* GSMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GSMessages.h; path = GSMessages/GSMessages.h; sourceTree = "<group>"; };
+		E64787892EC33E67B43DD6C7BEDE7653 /* Pods-Online Doğru Yanlış-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Online Doğru Yanlış-umbrella.h"; sourceTree = "<group>"; };
+		EC2167CF623ED67E77FEA9B79F07039E /* Pods-Online Doğru Yanlış-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Online Doğru Yanlış-acknowledgements.plist"; sourceTree = "<group>"; };
+		FEC00DAA97E1213EE58EC07E8DBEB99B /* Pods-Online Doğru Yanlış.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Online Doğru Yanlış.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		345AC45CCE17B8186CBFA3EC8968B25B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9052126DB82266DAA32286FE1BA04F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E592C0FC5010AFAF6BAD33A684C544B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480312FA1AAE653B2F95E2C0FD20FB66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		466A755705BC3D899E73B246933DCD2E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E14B576612138CF7A348D938D24284C /* GSMessages.modulemap */,
+				67850132A644AB83614AEC25CB088168 /* GSMessages.xcconfig */,
+				2DFDE6FE7B9BA9D43491A62AF75C42CC /* GSMessages-dummy.m */,
+				0303E678556361FCFBA75D571D92D467 /* GSMessages-prefix.pch */,
+				0AD1468587FFEEE7B3C8B003ED102065 /* GSMessages-umbrella.h */,
+				91B0F7D14CBD0078AD86863AF2A34A66 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GSMessages";
+			sourceTree = "<group>";
+		};
+		4A7B11D05A59A7C278A4DFBA0B86FF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F938D2A65F17C9AD06EF81FCC7776A2 /* GSMessages.framework */,
+				343C861C02EE149CC8858578756AC08A /* Pods_Online_Dog_ru_Yanl_s_.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70B2CC0C530E31F976792840B5D6A0E3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C027727E2F0707E50E58D91107598017 /* Pods-Online Doğru Yanlış */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EF722BA4FD5545BDE0E57399CA0E7981 /* Pods */,
+				4A7B11D05A59A7C278A4DFBA0B86FF51 /* Products */,
+				70B2CC0C530E31F976792840B5D6A0E3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C027727E2F0707E50E58D91107598017 /* Pods-Online Doğru Yanlış */ = {
+			isa = PBXGroup;
+			children = (
+				27043AF5CE162B5C8AB4510248EF2C6B /* Info.plist */,
+				FEC00DAA97E1213EE58EC07E8DBEB99B /* Pods-Online Doğru Yanlış.modulemap */,
+				0E6615EBD41E3BB7554FB75B8CAD4E59 /* Pods-Online Doğru Yanlış-acknowledgements.markdown */,
+				EC2167CF623ED67E77FEA9B79F07039E /* Pods-Online Doğru Yanlış-acknowledgements.plist */,
+				A1270A58DB96FDC3EA038794B3F7F635 /* Pods-Online Doğru Yanlış-dummy.m */,
+				0B152AD00C8D6462A9B65E6F58F495D7 /* Pods-Online Doğru Yanlış-frameworks.sh */,
+				8FBC5AB46709AA0C11CF1345AB49D542 /* Pods-Online Doğru Yanlış-resources.sh */,
+				E64787892EC33E67B43DD6C7BEDE7653 /* Pods-Online Doğru Yanlış-umbrella.h */,
+				64124959F406386A3F27691DD91C2C0A /* Pods-Online Doğru Yanlış.debug.xcconfig */,
+				482838988C22116F08EA5B8EF94544A4 /* Pods-Online Doğru Yanlış.release.xcconfig */,
+			);
+			name = "Pods-Online Doğru Yanlış";
+			path = "Target Support Files/Pods-Online Doğru Yanlış";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E6757BC270D72BF06B9BEA56F26454DC /* GSMessages */ = {
+			isa = PBXGroup;
+			children = (
+				24F1CA56A3DD201968EAFA14504A39C2 /* GSMessage.swift */,
+				D15A01C7825CA30771AA45B6DA04CE9D /* GSMessages.h */,
+				466A755705BC3D899E73B246933DCD2E /* Support Files */,
+			);
+			path = GSMessages;
+			sourceTree = "<group>";
+		};
+		EF722BA4FD5545BDE0E57399CA0E7981 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6757BC270D72BF06B9BEA56F26454DC /* GSMessages */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B3CF12B759B6C440324EABCDA3440989 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B75D84A721830E4CAF8ECD3CBAF88FB /* Pods-Online Doğru Yanlış-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF14C07A2FD449093A79E6E6F489A9E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D6F7BEDEF50F8A0AA261FBD89E4FB8 /* GSMessages-umbrella.h in Headers */,
+				96976E172CB308749824DE26F2AAC2AE /* GSMessages.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4FAA35685DA926D8DF8F5AD77AF7EC26 /* Pods-Online Doğru Yanlış */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6849B8DE9F006677186CB17CC35DF20F /* Build configuration list for PBXNativeTarget "Pods-Online Doğru Yanlış" */;
+			buildPhases = (
+				16A92E1CB6C92F91B3373D227F95D7A0 /* Sources */,
+				3E592C0FC5010AFAF6BAD33A684C544B /* Frameworks */,
+				B3CF12B759B6C440324EABCDA3440989 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF9C3B960C80D71DC74A43F1FB40BDF6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Online Doğru Yanlış";
+			productName = "Pods-Online Doğru Yanlış";
+			productReference = 343C861C02EE149CC8858578756AC08A /* Pods_Online_Dog_ru_Yanl_s_.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80A1AAD476BC6D0D87976DE91984E49D /* GSMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 059A5509FF0F82AA250F8C1FE7AE846E /* Build configuration list for PBXNativeTarget "GSMessages" */;
+			buildPhases = (
+				CEE2DC32528BCF7B4ACB260E44F9E0AC /* Sources */,
+				345AC45CCE17B8186CBFA3EC8968B25B /* Frameworks */,
+				DF14C07A2FD449093A79E6E6F489A9E8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSMessages;
+			productName = GSMessages;
+			productReference = 7F938D2A65F17C9AD06EF81FCC7776A2 /* GSMessages.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4A7B11D05A59A7C278A4DFBA0B86FF51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80A1AAD476BC6D0D87976DE91984E49D /* GSMessages */,
+				4FAA35685DA926D8DF8F5AD77AF7EC26 /* Pods-Online Doğru Yanlış */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16A92E1CB6C92F91B3373D227F95D7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CC69F123EE43F6C6C6A1B2AE62B576 /* Pods-Online Doğru Yanlış-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE2DC32528BCF7B4ACB260E44F9E0AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089CA1F406B63442DC59087196138D3C /* GSMessage.swift in Sources */,
+				7797E52B21C265ACD7C505D6632BCD64 /* GSMessages-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF9C3B960C80D71DC74A43F1FB40BDF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GSMessages;
+			target = 80A1AAD476BC6D0D87976DE91984E49D /* GSMessages */;
+			targetProxy = 82E6FA699806672F9D4F941A5DBFEF3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22F280CFEB66D772DEE6CADFCD4048E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64124959F406386A3F27691DD91C2C0A /* Pods-Online Doğru Yanlış.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Online Doğru Yanlış/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Online Doğru Yanlış/Pods-Online Doğru Yanlış.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		30E1BA2254D109507790D110FAD90CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67850132A644AB83614AEC25CB088168 /* GSMessages.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GSMessages/GSMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSMessages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GSMessages/GSMessages.modulemap";
+				PRODUCT_MODULE_NAME = GSMessages;
+				PRODUCT_NAME = GSMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42E5720C2AAB65694BBC6AF553220613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		603825A92BAFF825D97C8F2E97B272C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67850132A644AB83614AEC25CB088168 /* GSMessages.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GSMessages/GSMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSMessages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GSMessages/GSMessages.modulemap";
+				PRODUCT_MODULE_NAME = GSMessages;
+				PRODUCT_NAME = GSMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C90A7426A35718403CC46DC7B4059EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F2D1AAD0B1BAFE78D18B4231081994B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 482838988C22116F08EA5B8EF94544A4 /* Pods-Online Doğru Yanlış.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Online Doğru Yanlış/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Online Doğru Yanlış/Pods-Online Doğru Yanlış.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		059A5509FF0F82AA250F8C1FE7AE846E /* Build configuration list for PBXNativeTarget "GSMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E1BA2254D109507790D110FAD90CDC /* Debug */,
+				603825A92BAFF825D97C8F2E97B272C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E5720C2AAB65694BBC6AF553220613 /* Debug */,
+				C90A7426A35718403CC46DC7B4059EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6849B8DE9F006677186CB17CC35DF20F /* Build configuration list for PBXNativeTarget "Pods-Online Doğru Yanlış" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F280CFEB66D772DEE6CADFCD4048E0 /* Debug */,
+				F2D1AAD0B1BAFE78D18B4231081994B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

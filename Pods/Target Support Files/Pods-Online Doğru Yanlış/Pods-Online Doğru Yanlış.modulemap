@@ -1,0 +1,6 @@
+framework module Pods_Online_Dog_ru_Yanl_s_ {
+  umbrella header "Pods-Online Doğru Yanlış-umbrella.h"
+
+  export *
+  module * { export * }
+}
