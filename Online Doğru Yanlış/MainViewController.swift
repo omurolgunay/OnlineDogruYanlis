@@ -52,7 +52,7 @@ class MainViewController: UIViewController {
         let match = notification.object as! GKMatch
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "SingleGameID") as! SingleViewController
-        vc.currentMatch = match
+        vc.currentMatch.currentMatch = match
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
