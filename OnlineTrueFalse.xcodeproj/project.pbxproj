@@ -24,7 +24,7 @@
 		6004EBB55C630F024C12DDA7 /* Pods-Online Doğru Yanlış.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Online Doğru Yanlış.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Online Doğru Yanlış/Pods-Online Doğru Yanlış.debug.xcconfig"; sourceTree = "<group>"; };
 		7B74E486130E83699021FA6E /* Pods-Online Doğru Yanlış.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Online Doğru Yanlış.release.xcconfig"; path = "Pods/Target Support Files/Pods-Online Doğru Yanlış/Pods-Online Doğru Yanlış.release.xcconfig"; sourceTree = "<group>"; };
 		C2C44ABB186D1116065CC2D3 /* Pods_Online_Dog_ru_Yanl_s_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Online_Dog_ru_Yanl_s_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED42255C22E477D600884790 /* Online Doğru Yanlış.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Online Doğru Yanlış.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED42255C22E477D600884790 /* OnlineTrueFalse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineTrueFalse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED42255F22E477D600884790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED42256122E477D600884790 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		ED42256422E477D600884790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		ED42255322E477D600884790 = {
 			isa = PBXGroup;
 			children = (
-				ED42255E22E477D600884790 /* Online Doğru Yanlış */,
+				ED42255E22E477D600884790 /* OnlineTrueFalse */,
 				ED42255D22E477D600884790 /* Products */,
 				ED42257722E5B49400884790 /* Frameworks */,
 				B0D6BD3BC85C98ED05B28D21 /* Pods */,
@@ -74,12 +74,12 @@
 		ED42255D22E477D600884790 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED42255C22E477D600884790 /* Online Doğru Yanlış.app */,
+				ED42255C22E477D600884790 /* OnlineTrueFalse.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ED42255E22E477D600884790 /* Online Doğru Yanlış */ = {
+		ED42255E22E477D600884790 /* OnlineTrueFalse */ = {
 			isa = PBXGroup;
 			children = (
 				ED42255F22E477D600884790 /* AppDelegate.swift */,
@@ -92,7 +92,7 @@
 				ED42257122E4792100884790 /* Supporting Files */,
 				ED42256B22E477D800884790 /* Info.plist */,
 			);
-			path = "Online Doğru Yanlış";
+			path = OnlineTrueFalse;
 			sourceTree = "<group>";
 		};
 		ED42257122E4792100884790 /* Supporting Files */ = {
@@ -126,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED42255B22E477D600884790 /* Online Doğru Yanlış */ = {
+		ED42255B22E477D600884790 /* OnlineTrueFalse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED42256E22E477D800884790 /* Build configuration list for PBXNativeTarget "Online Doğru Yanlış" */;
+			buildConfigurationList = ED42256E22E477D800884790 /* Build configuration list for PBXNativeTarget "OnlineTrueFalse" */;
 			buildPhases = (
 				185D9FFD21F4AB268F282349 /* [CP] Check Pods Manifest.lock */,
 				ED42255822E477D600884790 /* Sources */,
@@ -140,9 +140,9 @@
 			);
 			dependencies = (
 			);
-			name = "Online Doğru Yanlış";
+			name = OnlineTrueFalse;
 			productName = "Online Doğru Yanlış";
-			productReference = ED42255C22E477D600884790 /* Online Doğru Yanlış.app */;
+			productReference = ED42255C22E477D600884790 /* OnlineTrueFalse.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -165,7 +165,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ED42255722E477D600884790 /* Build configuration list for PBXProject "Online Doğru Yanlış" */;
+			buildConfigurationList = ED42255722E477D600884790 /* Build configuration list for PBXProject "OnlineTrueFalse" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -178,7 +178,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED42255B22E477D600884790 /* Online Doğru Yanlış */,
+				ED42255B22E477D600884790 /* OnlineTrueFalse */,
 			);
 		};
 /* End PBXProject section */
@@ -396,7 +396,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6Q92ZA8LP;
 				ENABLE_BITCODE = YES;
-				INFOPLIST_FILE = "Online Doğru Yanlış/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/OnlineTrueFalse/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -417,7 +417,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6Q92ZA8LP;
 				ENABLE_BITCODE = YES;
-				INFOPLIST_FILE = "Online Doğru Yanlış/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/OnlineTrueFalse/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -433,7 +433,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED42255722E477D600884790 /* Build configuration list for PBXProject "Online Doğru Yanlış" */ = {
+		ED42255722E477D600884790 /* Build configuration list for PBXProject "OnlineTrueFalse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED42256C22E477D800884790 /* Debug */,
@@ -442,7 +442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED42256E22E477D800884790 /* Build configuration list for PBXNativeTarget "Online Doğru Yanlış" */ = {
+		ED42256E22E477D800884790 /* Build configuration list for PBXNativeTarget "OnlineTrueFalse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED42256F22E477D800884790 /* Debug */,

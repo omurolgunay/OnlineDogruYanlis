@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Online Doğru Yanlış.xcodeproj">
+      location = "group:/Users/omurolgunay/Documents/ios App/Online Dog&#x306;ru Yanl&#x131;s&#x327;/Online Dog&#x306;ru Yanl&#x131;s&#x327;/OnlineTrueFalse.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
