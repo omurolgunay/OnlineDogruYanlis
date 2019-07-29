@@ -1,0 +1,6 @@
+framework module Pods_OnlineTrueFalse {
+  umbrella header "Pods-OnlineTrueFalse-umbrella.h"
+
+  export *
+  module * { export * }
+}

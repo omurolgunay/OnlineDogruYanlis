@@ -1,16 +1,20 @@
 PODS:
+  - Alamofire (4.8.2)
   - GSMessages (1.7.1)
 
 DEPENDENCIES:
+  - Alamofire
   - GSMessages
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Alamofire
     - GSMessages
 
 SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   GSMessages: 561f35bac97ae35e6252252a4259fb2c9badea1a
 
-PODFILE CHECKSUM: 308b1e431719eebf42e73fed6b70d9609dee706f
+PODFILE CHECKSUM: a87fab42d684fc6f0950ce1d032581f99c1a0f9e
 
 COCOAPODS: 1.5.0
