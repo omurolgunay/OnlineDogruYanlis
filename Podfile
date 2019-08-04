@@ -8,4 +8,5 @@ target 'OnlineTrueFalse' do
   # Pods for OnlineTrueFalse
 	pod "GSMessages"
 	pod "Alamofire"
+	pod "LGButton"
 end

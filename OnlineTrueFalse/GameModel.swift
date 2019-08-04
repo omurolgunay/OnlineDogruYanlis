@@ -9,6 +9,7 @@
 import Foundation
 
 struct GameModel: Codable {
+    var userReady: Bool
     var questionOrder: Int
     var totalQuestionCount: Int
     var correctCount: Int

@@ -11,18 +11,27 @@ import GSMessages
 import AVFoundation
 import GameKit
 import Alamofire
+import LGButton
 
 class SingleViewController: UIViewController {
 
     //MARK: - Variables
     var currentMatch = GameCenterHelper.helper
-    var gameData = GameModel(questionOrder: 2, totalQuestionCount: 10, correctCount: 1)
-    var questions: [QuestionModel]? = []
-    //MARK: - IBActions
+    var gameData = GameModel(userReady: false, questionOrder: 1, totalQuestionCount: 10, correctCount: 0)
+    var incomingData:GameModel?
+    
+    var service = GameNetwork()
 
-    @IBAction func sendData(_ sender: Any) {
+    //MARK: - IBActions
+    @IBOutlet weak var rivalStatus: LGButton!
+    @IBOutlet weak var myStatus: LGButton!
+    @IBAction func imReady(_ sender: Any) {
+        gameData.userReady = true
+        myStatus.rightIconString = "check"
         currentMatch.sendMatchData(gameData)
+
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         if let rivalName = currentMatch.currentMatch?.players.first?.displayName{
@@ -30,23 +39,13 @@ class SingleViewController: UIViewController {
         }
         NotificationCenter.default.addObserver(self, selector: #selector(reciveData(_:)), name: .reciveData, object: nil)
     }
-    @objc func reciveData (_ notification: Notification) {
 
-        print("Data Geldi \(notification.object) ")
-        getQuestions()
-    }
-    
-    //MARK: - Functions
-    public func getQuestions() {
-        Alamofire.request("https://\(domainName).com/wp-json/kph/v1&secretKey=\(secretKey)&appID=\(appID)/questions?id=1").responseJSON { response in
-            if let json = response.data{
-                do{
-                    let decoder = JSONDecoder()
-                    let result = try decoder.decode([QuestionModel].self, from: json)
-                    self.questions = result
-                }catch{
-                    print(error,"buradayııım")
-                }
+    @objc func reciveData (_ notification: Notification) {
+        print("Data Geldi")
+        incomingData = notification.object as? GameModel
+        if let data = incomingData {
+            if data.userReady{
+                rivalStatus.rightIconString = "check"
             }
         }
     }

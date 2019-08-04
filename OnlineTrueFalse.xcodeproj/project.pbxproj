@@ -20,6 +20,7 @@
 		ED42257B22E5E67100884790 /* Notification-Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42257A22E5E67100884790 /* Notification-Name.swift */; };
 		ED42257D22E6DCFE00884790 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42257C22E6DCFE00884790 /* GameModel.swift */; };
 		ED43BC0122E750CA005C8621 /* SingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED43BC0022E750CA005C8621 /* SingleViewController.swift */; };
+		EDA0D34322EF956E0095AC53 /* GameNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0D34222EF956E0095AC53 /* GameNetwork.swift */; };
 		F5EB725ECF4F769380818A95 /* Pods_OnlineTrueFalse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D891C279E85B7C8DA002E52 /* Pods_OnlineTrueFalse.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		ED42257C22E6DCFE00884790 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameModel.swift; path = ../GameModel.swift; sourceTree = "<group>"; };
 		ED43BBFE22E74E40005C8621 /* GSMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GSMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED43BC0022E750CA005C8621 /* SingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewController.swift; sourceTree = "<group>"; };
+		EDA0D34222EF956E0095AC53 /* GameNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				ED42256122E477D600884790 /* MainViewController.swift */,
 				ED43BC0022E750CA005C8621 /* SingleViewController.swift */,
 				ED42257522E5A6C400884790 /* GameCenterHelper.swift */,
+				EDA0D34222EF956E0095AC53 /* GameNetwork.swift */,
 				ED42256322E477D600884790 /* Main.storyboard */,
 				ED0E1C9822EF40F90068006C /* Models */,
 				ED42257422E5976900884790 /* Extensions */,
@@ -246,11 +249,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-OnlineTrueFalse/Pods-OnlineTrueFalse-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GSMessages/GSMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/LGButton/LGButton.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGButton.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -272,6 +277,7 @@
 				ED43BC0122E750CA005C8621 /* SingleViewController.swift in Sources */,
 				ED42257322E5863E00884790 /* Font-Helpers.swift in Sources */,
 				ED42257D22E6DCFE00884790 /* GameModel.swift in Sources */,
+				EDA0D34322EF956E0095AC53 /* GameNetwork.swift in Sources */,
 				ED0E1C9722EF40EB0068006C /* QuestionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

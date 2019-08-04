@@ -76,6 +76,7 @@ extension GameCenterHelper: GKMatchmakerViewControllerDelegate {
         self.currentMatch = match
         match.delegate = self
         if match.expectedPlayerCount == 0 {
+            
             viewController.dismiss(animated: true, completion: nil)
             NotificationCenter.default.post(name: .presentGame, object: match)
         }
@@ -92,5 +93,6 @@ extension GameCenterHelper: GKMatchDelegate {
             print(error)
         }
     }
+
 }
 
