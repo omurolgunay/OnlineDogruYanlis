@@ -13,7 +13,9 @@ struct GameModel: Codable {
     var questionOrder: Int
     var totalQuestionCount: Int
     var correctCount: Int
-    
+    //MARK:TO DO
+    /* Bundle id varsa kullan yoksa karşı tarafa gonder*/
+
     static let encoder = JSONEncoder()
     static let decoder = JSONDecoder()
 }

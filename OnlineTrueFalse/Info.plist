@@ -46,5 +46,7 @@
 	</array>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Sesli chat için Mikrafon erişimi lazım</string>
+	<key>FirebaseScreenReportingEnabled</key>
+	<false/>
 </dict>
 </plist>

@@ -9,17 +9,19 @@
 /* Begin PBXBuildFile section */
 		ED0E1C9722EF40EB0068006C /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0E1C9622EF40EB0068006C /* QuestionModel.swift */; };
 		ED0E1C9C22EF49930068006C /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0E1C9B22EF49930068006C /* GlobalVariables.swift */; };
+		ED393BEE230981B200A0DB2A /* FirebaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED393BED230981B200A0DB2A /* FirebaseAPI.swift */; };
 		ED42256022E477D600884790 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42255F22E477D600884790 /* AppDelegate.swift */; };
 		ED42256222E477D600884790 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42256122E477D600884790 /* MainViewController.swift */; };
 		ED42256522E477D600884790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED42256322E477D600884790 /* Main.storyboard */; };
 		ED42256722E477D800884790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED42256622E477D800884790 /* Assets.xcassets */; };
 		ED42256A22E477D800884790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED42256822E477D800884790 /* LaunchScreen.storyboard */; };
-		ED42257322E5863E00884790 /* Font-Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42257222E5863E00884790 /* Font-Helpers.swift */; };
+		ED42257322E5863E00884790 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42257222E5863E00884790 /* UIFont+Extension.swift */; };
 		ED42257622E5A6C400884790 /* GameCenterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42257522E5A6C400884790 /* GameCenterHelper.swift */; };
 		ED42257922E5B49400884790 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED42257822E5B49400884790 /* GameKit.framework */; };
-		ED42257B22E5E67100884790 /* Notification-Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42257A22E5E67100884790 /* Notification-Name.swift */; };
+		ED42257B22E5E67100884790 /* Notification.Name+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42257A22E5E67100884790 /* Notification.Name+Extension.swift */; };
 		ED42257D22E6DCFE00884790 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42257C22E6DCFE00884790 /* GameModel.swift */; };
 		ED43BC0122E750CA005C8621 /* SingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED43BC0022E750CA005C8621 /* SingleViewController.swift */; };
+		ED6F2B9A23097E63003D0684 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED6F2B9923097E63003D0684 /* GoogleService-Info.plist */; };
 		EDA0D34322EF956E0095AC53 /* GameNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0D34222EF956E0095AC53 /* GameNetwork.swift */; };
 		F5EB725ECF4F769380818A95 /* Pods_OnlineTrueFalse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D891C279E85B7C8DA002E52 /* Pods_OnlineTrueFalse.framework */; };
 /* End PBXBuildFile section */
@@ -33,6 +35,7 @@
 		C2C44ABB186D1116065CC2D3 /* Pods_Online_Dog_ru_Yanl_s_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Online_Dog_ru_Yanl_s_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0E1C9622EF40EB0068006C /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuestionModel.swift; path = ../QuestionModel.swift; sourceTree = "<group>"; };
 		ED0E1C9B22EF49930068006C /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		ED393BED230981B200A0DB2A /* FirebaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAPI.swift; sourceTree = "<group>"; };
 		ED42255C22E477D600884790 /* OnlineTrueFalse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineTrueFalse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED42255F22E477D600884790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED42256122E477D600884790 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -40,13 +43,14 @@
 		ED42256622E477D800884790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED42256922E477D800884790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED42256B22E477D800884790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED42257222E5863E00884790 /* Font-Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font-Helpers.swift"; sourceTree = "<group>"; };
+		ED42257222E5863E00884790 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		ED42257522E5A6C400884790 /* GameCenterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterHelper.swift; sourceTree = "<group>"; };
 		ED42257822E5B49400884790 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		ED42257A22E5E67100884790 /* Notification-Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification-Name.swift"; sourceTree = "<group>"; };
+		ED42257A22E5E67100884790 /* Notification.Name+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification.Name+Extension.swift"; sourceTree = "<group>"; };
 		ED42257C22E6DCFE00884790 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameModel.swift; path = ../GameModel.swift; sourceTree = "<group>"; };
 		ED43BBFE22E74E40005C8621 /* GSMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GSMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED43BC0022E750CA005C8621 /* SingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewController.swift; sourceTree = "<group>"; };
+		ED6F2B9923097E63003D0684 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EDA0D34222EF956E0095AC53 /* GameNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +87,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		ED393BEC2309818D00A0DB2A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				ED393BED230981B200A0DB2A /* FirebaseAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		ED42255322E477D600884790 = {
 			isa = PBXGroup;
 			children = (
@@ -113,8 +125,10 @@
 				ED42256322E477D600884790 /* Main.storyboard */,
 				ED0E1C9822EF40F90068006C /* Models */,
 				ED42257422E5976900884790 /* Extensions */,
+				ED393BEC2309818D00A0DB2A /* API */,
 				ED42257122E4792100884790 /* Supporting Files */,
 				ED42256B22E477D800884790 /* Info.plist */,
+				ED6F2B9923097E63003D0684 /* GoogleService-Info.plist */,
 			);
 			path = OnlineTrueFalse;
 			sourceTree = "<group>";
@@ -131,8 +145,8 @@
 		ED42257422E5976900884790 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				ED42257222E5863E00884790 /* Font-Helpers.swift */,
-				ED42257A22E5E67100884790 /* Notification-Name.swift */,
+				ED42257222E5863E00884790 /* UIFont+Extension.swift */,
+				ED42257A22E5E67100884790 /* Notification.Name+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -214,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED42256A22E477D800884790 /* LaunchScreen.storyboard in Resources */,
+				ED6F2B9A23097E63003D0684 /* GoogleService-Info.plist in Resources */,
 				ED42256722E477D800884790 /* Assets.xcassets in Resources */,
 				ED42256522E477D600884790 /* Main.storyboard in Resources */,
 			);
@@ -248,14 +263,30 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-OnlineTrueFalse/Pods-OnlineTrueFalse-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/GSMessages/GSMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/LGButton/LGButton.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -271,14 +302,15 @@
 			files = (
 				ED42257622E5A6C400884790 /* GameCenterHelper.swift in Sources */,
 				ED42256222E477D600884790 /* MainViewController.swift in Sources */,
-				ED42257B22E5E67100884790 /* Notification-Name.swift in Sources */,
+				ED42257B22E5E67100884790 /* Notification.Name+Extension.swift in Sources */,
 				ED0E1C9C22EF49930068006C /* GlobalVariables.swift in Sources */,
 				ED42256022E477D600884790 /* AppDelegate.swift in Sources */,
 				ED43BC0122E750CA005C8621 /* SingleViewController.swift in Sources */,
-				ED42257322E5863E00884790 /* Font-Helpers.swift in Sources */,
+				ED42257322E5863E00884790 /* UIFont+Extension.swift in Sources */,
 				ED42257D22E6DCFE00884790 /* GameModel.swift in Sources */,
 				EDA0D34322EF956E0095AC53 /* GameNetwork.swift in Sources */,
 				ED0E1C9722EF40EB0068006C /* QuestionModel.swift in Sources */,
+				ED393BEE230981B200A0DB2A /* FirebaseAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,10 +462,7 @@
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/OnlineTrueFalse/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.omurolgunay.tfgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -451,10 +480,7 @@
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/OnlineTrueFalse/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.omurolgunay.tfgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

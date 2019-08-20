@@ -10,9 +10,11 @@ import UIKit
 import GameKit
 import GSMessages
 
+
 class MainViewController: UIViewController {
     //MARK: - Variables
-
+    var firebaseApi = FirebaseAPI()
+    
     //MARK: - IBOutlets
     @IBOutlet weak var findGame: UIButton!{
         didSet{
@@ -36,6 +38,13 @@ class MainViewController: UIViewController {
         GameCenterHelper.helper.viewController = self
         NotificationCenter.default.addObserver(self, selector: #selector(authenticationChanged(_:)), name: .authenticationChanged, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(matchFound(_:)), name: .presentGame, object: nil)
+        
+        firebaseApi.getQuestions(){
+            print("geldi")
+        }
+        
+
+        
     }
     
     //MARK: - Notification Funcs

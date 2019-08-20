@@ -6,6 +6,9 @@ target 'OnlineTrueFalse' do
   use_frameworks!
 
   # Pods for OnlineTrueFalse
+	pod "Firebase/Core"
+	pod "Firebase/Firestore"
+	pod "Firebase/Auth"
 	pod "GSMessages"
 	pod "Alamofire"
 	pod "LGButton"
