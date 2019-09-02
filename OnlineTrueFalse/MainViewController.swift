@@ -39,9 +39,7 @@ class MainViewController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(authenticationChanged(_:)), name: .authenticationChanged, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(matchFound(_:)), name: .presentGame, object: nil)
         
-        firebaseApi.getQuestions(){
-            print("geldi")
-        }
+        firebaseApi.getQuestions()
         
 
         

@@ -13,19 +13,20 @@ import FirebaseFirestore
 class FirebaseAPI {
     static let db:Firestore = Firestore.firestore()
 
-    func getQuestions(completion: @escaping () -> Void){
-        FirebaseAPI.db.collection("Questions").getDocuments() { (querySnapshot, err) in
-            if let err = err {
-                print("Error getting documents: \(err)")
-            } else {
-                for document in querySnapshot!.documents {
-                    print("\(document.documentID) => \(document.data())")
+    func getQuestions(){
+        
+        var randomNumberArray = [Int]()
+        randomNumberArray.getRandomNumbers(maxNumber: 12, listSize: 10)
+        print(randomNumberArray,"randomNumberArray")
+        FirebaseAPI.db.collection("Questions").limit(to: 10)
+            .getDocuments() { (querySnapshot, err) in
+                if let err = err {
+                    print("Error getting documents: \(err)")
+                } else {
+                    for document in querySnapshot!.documents {
+                        print("\(document.documentID) => \(document.data())")
+                    }
                 }
-                DispatchQueue.main.async {
-                    completion()
-                }
-            }
         }
-
     }
 }

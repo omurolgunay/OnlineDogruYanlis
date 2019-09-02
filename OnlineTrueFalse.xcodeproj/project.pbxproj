@@ -21,6 +21,7 @@
 		ED42257B22E5E67100884790 /* Notification.Name+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42257A22E5E67100884790 /* Notification.Name+Extension.swift */; };
 		ED42257D22E6DCFE00884790 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42257C22E6DCFE00884790 /* GameModel.swift */; };
 		ED43BC0122E750CA005C8621 /* SingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED43BC0022E750CA005C8621 /* SingleViewController.swift */; };
+		ED5ABACD231978FC00F97276 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5ABACC231978FC00F97276 /* Array+Extension.swift */; };
 		ED6F2B9A23097E63003D0684 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED6F2B9923097E63003D0684 /* GoogleService-Info.plist */; };
 		EDA0D34322EF956E0095AC53 /* GameNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0D34222EF956E0095AC53 /* GameNetwork.swift */; };
 		F5EB725ECF4F769380818A95 /* Pods_OnlineTrueFalse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D891C279E85B7C8DA002E52 /* Pods_OnlineTrueFalse.framework */; };
@@ -50,6 +51,7 @@
 		ED42257C22E6DCFE00884790 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameModel.swift; path = ../GameModel.swift; sourceTree = "<group>"; };
 		ED43BBFE22E74E40005C8621 /* GSMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GSMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED43BC0022E750CA005C8621 /* SingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewController.swift; sourceTree = "<group>"; };
+		ED5ABACC231978FC00F97276 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		ED6F2B9923097E63003D0684 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EDA0D34222EF956E0095AC53 /* GameNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,6 +149,7 @@
 			children = (
 				ED42257222E5863E00884790 /* UIFont+Extension.swift */,
 				ED42257A22E5E67100884790 /* Notification.Name+Extension.swift */,
+				ED5ABACC231978FC00F97276 /* Array+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				ED42257622E5A6C400884790 /* GameCenterHelper.swift in Sources */,
 				ED42256222E477D600884790 /* MainViewController.swift in Sources */,
 				ED42257B22E5E67100884790 /* Notification.Name+Extension.swift in Sources */,
+				ED5ABACD231978FC00F97276 /* Array+Extension.swift in Sources */,
 				ED0E1C9C22EF49930068006C /* GlobalVariables.swift in Sources */,
 				ED42256022E477D600884790 /* AppDelegate.swift in Sources */,
 				ED43BC0122E750CA005C8621 /* SingleViewController.swift in Sources */,
@@ -462,7 +466,10 @@
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/OnlineTrueFalse/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.omurolgunay.tfgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -480,7 +487,10 @@
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/OnlineTrueFalse/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.omurolgunay.tfgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
